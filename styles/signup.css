@@ -1,0 +1,96 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Roboto, sans-serif;
+}
+body {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: hsla(205, 46%, 10%, 1);
+
+  background: linear-gradient(
+    90deg,
+    hsla(205, 46%, 10%, 1) 0%,
+    hsla(191, 28%, 23%, 1) 50%,
+    hsla(207, 41%, 27%, 1) 100%
+  );
+
+  background: -moz-linear-gradient(
+    90deg,
+    hsla(205, 46%, 10%, 1) 0%,
+    hsla(191, 28%, 23%, 1) 50%,
+    hsla(207, 41%, 27%, 1) 100%
+  );
+
+  background: -webkit-linear-gradient(
+    90deg,
+    hsla(205, 46%, 10%, 1) 0%,
+    hsla(191, 28%, 23%, 1) 50%,
+    hsla(207, 41%, 27%, 1) 100%
+  );
+
+  filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#0E1C26", endColorstr="#2A454B", GradientType=1 );
+}
+form {
+  padding-top: 40px;
+  width: 400px;
+  height: 450px;
+  background: rgba(0, 0, 0, 0.4);
+  border-radius: 10px;
+}
+
+label {
+  margin: 10px;
+  font-weight: bold;
+  text-align: left;
+  display: block;
+  padding-left: 30px;
+  color: white;
+}
+
+input {
+  padding: 5px;
+  width: 80%;
+  display: block;
+  margin: 10px auto 20px auto;
+  border: 1px solid #ccc;
+  outline: none;
+  border-radius: 5px;
+  font-size: 16px;
+}
+input:focus {
+  box-shadow: 0 0 5px gray;
+}
+
+input[type="submit"] {
+  background-color: #4caf50;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+input[type="submit"]:hover {
+  background-color: #45a049;
+}
+a {
+  background-color: rgb(51,49,49);
+  text-decoration: none;
+  width: 80%;
+  text-align: center;
+  display: block;
+  margin: auto;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+a:hover {
+    opacity: .7;
+}
